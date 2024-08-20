@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new dogbreedsQueryOptions {
+var queryOptions = new DogBreedsQueryOptions {
   breed = "beagle"
 };
 ```
@@ -123,7 +123,8 @@ if(response.error != null) {
         ]
       }
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
